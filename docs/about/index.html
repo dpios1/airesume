@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About – AI Resume Maker</title>
+
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --secondary: #6366f1;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --border: #e5e7eb;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 48px 24px;
+      text-align: center;
+      animation: fadeDown 0.6s ease-out;
+    }
+
+    header h1 { margin: 0; font-size: 2.2rem; }
+    header p { margin-top: 8px; opacity: 0.9; }
+
+    main {
+      max-width: 900px;
+      margin: -32px auto 48px;
+      padding: 0 16px;
+      animation: fadeUp 0.6s ease-out;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 14px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      border: 1px solid var(--border);
+    }
+
+    section { margin-bottom: 28px; }
+    section h2 { font-size: 1.15rem; margin-bottom: 10px; color: var(--primary); }
+    section p, section li { font-size: 0.95rem; color: var(--text); margin: 0 0 8px 0; }
+
+    ul { padding-left: 18px; margin-top: 8px; }
+    .note {
+      background: #eef2ff;
+      border-left: 4px solid var(--primary);
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      color: var(--text);
+      margin-top: 12px;
+    }
+
+    footer { text-align: center; color: var(--muted); font-size: 0.9rem; margin-top: 20px; }
+
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeDown {
+      from { opacity: 0; transform: translateY(-12px); } to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      .card { padding: 22px; }
+      header h1 { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About AI Resume Maker</h1>
+    <p>Smart resume creation powered by on-device intelligence and simple workflows.</p>
+  </header>
+
+  <main>
+    <div class="card">
+
+      <section>
+        <h2>What is AI Resume Maker?</h2>
+        <p>AI Resume Maker is a lightweight resume builder that helps you create professional resumes quickly. It uses on-device intelligence and optional integrations to suggest improvements and produce well-formatted resume documents.</p>
+      </section>
+
+      <section>
+        <h2>Key features</h2>
+        <ul>
+          <li>Guided resume templates — start from a clean, professional layout.</li>
+          <li>AI-assisted content suggestions—generate role-specific bullet points and summaries.</li>
+          <li>Local-first storage — resume data is stored locally on your device by default.</li>
+          <li>Ad-supported free version with Google AdMob integrations (configurable).</li>
+          <li>Export to PDF and share via native device share sheet.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>How it works</h2>
+        <p>Enter your details (experience, education, skills). Use the AI suggestions to refine wording and structure. Preview and export a PDF when you’re finished. The AI processing happens on-device or via authorized Apple services depending on availability and settings.</p>
+        <div class="note">
+          AI Resume Maker does not require an account — all resume data remains local unless you explicitly export or share it.
+        </div>
+      </section>
+
+      <section>
+        <h2>Supported platforms</h2>
+        <p>Designed primarily for mobile devices (iOS / iPadOS). The site can be used as a reference for app information and privacy links.</p>
+      </section>
+
+      <section>
+        <h2>Integrations</h2>
+        <ul>
+          <li>Apple Intelligence — optional on-device or Apple-managed processing for text suggestions.</li>
+          <li>Google AdMob — ad serving and analytics for the ad-supported version.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Privacy & support</h2>
+        <p>For details on data handling and privacy, see our <a href="/airesume/privacy/index.html">Privacy Policy</a> (or <a href="/airesume/privacy/index.html">click here</a>).</p>
+        <p>Need help or have feedback? Email: <strong>neelagirisolutions@gmail.com</strong></p>
+      </section>
+
+      <footer>
+        Version: 1.0 • Last updated: 2026-01-11
+      </footer>
+
+    </div>
+  </main>
+
+</body>
+</html>
